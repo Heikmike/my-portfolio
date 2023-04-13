@@ -1,0 +1,74 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px;
+    height: 100vh;
+    width: 100%;
+}
+
+.title {
+    color: white;
+    font-size: 9rem;
+    font-weight: 700;
+    font-family: 'Roboto', sans-serif;
+}
+
+ .description {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;
+}
+.image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding-left: 2rem;
+}
+.epfl {
+    width: 120px;
+    padding-left: 18px;
+}
+
+.button {
+    color: #000;
+    background-color: lightgoldenrodyellow;
+    border: none;
+    border-radius: 30px;
+    padding: 15px;
+    font-size: 2rem;
+    margin-top: 5rem;
+    margin-right: 5rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    width: 20%;
+    align-self: center;
+
+    transition: all 0.2s ease-in-out;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #8dc1e0;
+    width: 22%;
+}
+
+.hr {
+   width: 60vw;
+   align-self: center;
+   color: #fff;
+}
+
+.name {
+    /* color: linear-gradient(45deg, black, white); */
+    color: white;
+}

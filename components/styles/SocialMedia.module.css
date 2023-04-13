@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 30vw;
+    align-self: center;
+}
+
+.link {
+    font-family: 'FontAwesome';
+    font-size: 8em;
+    color: #fff;
+}

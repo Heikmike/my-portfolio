@@ -1,13 +1,8 @@
 import Head from 'next/head'
-import { Roboto } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 import TopBar from '../components/TopBar'
 import Main from '../components/Main'
-
-const inter = Roboto({
-    subsets: ['latin'],
-    weight: ['700'],
-})
+import ParticlesBg from '../components/ParticlesBg'
 
 export default function Home() {
     return (
@@ -19,8 +14,9 @@ export default function Home() {
                 <link rel="icon" href="/favicon.ico" />
             </Head>
             <main className={styles.main}>
+                <ParticlesBg />
                 <TopBar />
-        <Main />
+                <Main />
             </main>
         </>
     )

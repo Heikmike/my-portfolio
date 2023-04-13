@@ -87,7 +87,7 @@ body {
 
 body {
   color: rgb(var(--foreground-rgb));
-  background: #232323;
+  background: linear-gradient(45deg, #ba5370, #f4e2d8);
 }
 
 a {
