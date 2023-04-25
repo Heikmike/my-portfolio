@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.contact {
+    font-weight: 700;
+    text-decoration: underline;
+    text-decoration-color: #fff;
+    text-decoration-thickness: 5px;
+}
+
+.title {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 6rem;
+    color: #fff;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+.home {
+    font-family: 'FontAwesome';
+    font-size: 6rem;
+    color: #fff;
+    margin-bottom: 5rem;
+}
