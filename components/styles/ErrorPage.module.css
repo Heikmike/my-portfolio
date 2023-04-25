@@ -11,8 +11,15 @@
 .contact {
     font-weight: 700;
     text-decoration: underline;
-    text-decoration-color: #fff;
+    text-decoration-color: lightgoldenrodyellow;
     text-decoration-thickness: 5px;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.contact:hover {
+    scale: 1.1;
+    cursor: pointer;
 }
 
 .title {
@@ -35,4 +42,11 @@
     font-size: 6rem;
     color: #fff;
     margin-bottom: 5rem;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.home:hover {
+    scale: 1.1;
+    cursor: pointer;
 }

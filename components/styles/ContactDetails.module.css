@@ -1,0 +1,39 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    margin-left: 50px;
+    margin-bottom: 9rem;
+}
+
+.socials {
+    flex-direction: row;
+    margin-bottom: 3rem;
+}
+
+.link {
+    font-family: 'FontAwesome';
+    font-size: 5rem;
+    margin: 10px;
+    color: #fff;
+
+    transition: all 0.3s ease-in-out;
+}
+
+.link:hover {
+    scale: 1.1;
+    cursor: pointer;
+}
+
+.text {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 2rem;
+    color: #fff;
+    margin-top: 1rem;
+}
+.logo {
+    font-family: 'FontAwesome';
+    color: lightgoldenrodyellow;
+}

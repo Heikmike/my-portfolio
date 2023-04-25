@@ -10,7 +10,11 @@ export default function ErrorPage() {
                 I&apos;m still working on this website, so do not hesitate to come back later.
             </p>
             <p className={styles.text}>
-                If you have any suggestion(s), please&nbsp;<p className={styles.contact}>contact</p>&nbsp;me.
+                If you have any suggestion(s), please&nbsp;<Link
+                    className={styles.contact}
+                    href="/contact"
+                >
+                    contact</Link>&nbsp;me.
             </p>
         </div >
     )
