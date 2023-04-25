@@ -46,7 +46,7 @@ export default function ContactForm() {
                                 // },
                             }}
                         >
-                            <p className={styles.title}>Contact form</p>
+                            <p className={styles.title}>Contact Form</p>
                             <label>
                                 <p className={styles.inStyle}>Full Name</p>
                                 <input
