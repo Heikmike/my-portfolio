@@ -82,7 +82,7 @@
     font-weight: 700;
     font-size: 1.8rem;
     background-color: white;
-    color: mediumpurple;
+    color: #19547b;
     border: none;
     border-radius: 10px;
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -92,7 +92,7 @@
 }
 
 .submit:hover:enabled {
-    background-color: mediumpurple;
+    background-color: #19547b;
     color: white;
     cursor: pointer;
     scale: 1.2;
@@ -109,4 +109,26 @@
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
     padding: 5px;
     opacity: 0.5;
+}
+
+.sent {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 700;
+    font-size: 6rem;
+    color: #fff;
+}
+
+.sentContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.message {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    font-size: 2rem;
+    margin-top: 30px;
+    color: #fff;
 }
