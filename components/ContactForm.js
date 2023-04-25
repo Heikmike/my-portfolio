@@ -78,7 +78,7 @@ export default function ContactForm() {
                             <input
                                 type="submit"
                                 value="Send"
-                    disabled={name === '' || email === '' || message === ''}
+                                disabled={name === '' || email === '' || message === ''}
                                 className={styles.submit}
                             />
                         </motion.form>
